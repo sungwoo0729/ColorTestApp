@@ -14,6 +14,7 @@
 		6E28E6572C45B22C00AAA97C /* ColorTestAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E28E6562C45B22C00AAA97C /* ColorTestAppTests.swift */; };
 		6E28E6612C45B22C00AAA97C /* ColorTestAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E28E6602C45B22C00AAA97C /* ColorTestAppUITests.swift */; };
 		6E28E6632C45B22C00AAA97C /* ColorTestAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E28E6622C45B22C00AAA97C /* ColorTestAppUITestsLaunchTests.swift */; };
+		6E28E6702C45B35500AAA97C /* ColorSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E28E66F2C45B35500AAA97C /* ColorSlider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		6E28E65C2C45B22C00AAA97C /* ColorTestAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorTestAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E28E6602C45B22C00AAA97C /* ColorTestAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTestAppUITests.swift; sourceTree = "<group>"; };
 		6E28E6622C45B22C00AAA97C /* ColorTestAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorTestAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6E28E66F2C45B35500AAA97C /* ColorSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				6E28E6452C45B22B00AAA97C /* ColorTestAppApp.swift */,
 				6E28E6472C45B22B00AAA97C /* ContentView.swift */,
+				6E28E66F2C45B35500AAA97C /* ColorSlider.swift */,
 				6E28E6492C45B22C00AAA97C /* Assets.xcassets */,
 				6E28E64B2C45B22C00AAA97C /* Preview Content */,
 			);
@@ -258,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6E28E6482C45B22B00AAA97C /* ContentView.swift in Sources */,
+				6E28E6702C45B35500AAA97C /* ColorSlider.swift in Sources */,
 				6E28E6462C45B22B00AAA97C /* ColorTestAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
